@@ -19,16 +19,16 @@ const location = useLocation()
                 <NavbarCollapse id='basic-navbar-nav'>
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className={`${location.pathname === '/caroselli' ? 'nav-link text-white active' : 'nav-link text-white'}`} to="/caroselli" aria-current="page">Home</Link>
+                                <Link className={`${location.pathname === '/caroselli' ? 'nav-link text-white active fw-bold' : 'nav-link text-white'}`} to="/caroselli" aria-current="page">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className={`${location.pathname === '/carosello2' ? 'nav-link text-white active' : 'nav-link text-white'}`} to="/carosello2">TV Shows</Link>
+                                <Link className={`${location.pathname === '/carosello2' ? 'nav-link text-white active fw-bold' : 'nav-link text-white'}`} to="/carosello2">TV Shows</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className={`${location.pathname === '/carosello1' ? 'nav-link text-white active' : 'nav-link text-white'}`} to="/carosello1">Movies</Link>
+                                <Link className={`${location.pathname === '/carosello1' ? 'nav-link text-white active fw-bold' : 'nav-link text-white'}`} to="/carosello1">Movies</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className={`${location.pathname === '/carosello3' ? 'nav-link text-white active' : 'nav-link text-white'}`} to="/carosello3">Recently Added</Link>
+                                <Link className={`${location.pathname === '/carosello3' ? 'nav-link text-white active fw-bold' : 'nav-link text-white'}`} to="/carosello3">Recently Added</Link>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link text-white" href="#">My List</a>
